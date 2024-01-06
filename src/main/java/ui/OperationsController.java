@@ -1,4 +1,4 @@
-package com.example.laba;
+package ui;
 
 public class OperationsController {
 }

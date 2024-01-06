@@ -1,4 +1,4 @@
-package com.example.laba;
+package ui;
 
 import java.io.IOException;
 import java.net.URL;
@@ -22,16 +22,16 @@ public class HelloController {
     private URL location;
 
     @FXML
-    private Button differentiation;
+    public Button differentiation;
 
     @FXML
-    private Button graphics;
+    public Button graphics;
 
     @FXML
-    private Button operations;
+    public Button operations;
 
     @FXML
-    private Button settings;
+    public Button settings;
 
     @FXML
     void initialize() {

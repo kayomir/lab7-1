@@ -4,6 +4,6 @@ module com.example.laba {
 
     requires com.dlsc.formsfx;
 
-    opens com.example.laba to javafx.fxml;
-    exports com.example.laba;
+    opens ui to javafx.fxml;
+    exports ui;
 }
